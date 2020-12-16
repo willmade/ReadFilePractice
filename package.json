@@ -1,0 +1,10 @@
+{
+  "name": "ReadFilePractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "William H.",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "license": "KCP"
+}
