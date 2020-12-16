@@ -8,7 +8,6 @@
 // Must require module for working with the filesystem
 const fs = require('fs')
 
-
 let streamfunc = (source, output=process.stdout) => {
  const stream = fs.createReadStream(__dirname +'/'+ source)
  stream.pipe(output)
